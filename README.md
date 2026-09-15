@@ -10,10 +10,10 @@ Inference runs on NVIDIA TensorRT. The extension is a single 685 KB file.
 > [!WARNING]
 > **Proof of concept — not for live production.**
 >
-> This is an experimental extension, shared to show what is possible. It has
-> had limited testing, is not supported, and can fail in ways that affect
-> playback. Try it on a machine that is not running a show, and do not rely on
-> it in a live production environment.
+> This is an experimental personal project, shared to show what is possible.
+> It has had limited testing, is not supported, and can fail in ways that
+> affect playback. Try it on a machine that is not running a show, and do not
+> rely on it in a live production environment.
 
 ---
 
@@ -28,6 +28,7 @@ Inference runs on NVIDIA TensorRT. The extension is a single 685 KB file.
 - [Debugging](#debugging)
 - [Building from source](#building-from-source)
 - [Third-party components](#third-party-components)
+- [Status and licence](#status-and-licence)
 
 ---
 
@@ -498,3 +499,14 @@ If you cloned without `--recurse-submodules`, run
   itself is not distributed here; it is installed separately under NVIDIA's
   terms.
 - **Models** are not included. Check the licence of any model you use.
+
+---
+
+## Status and licence
+
+This is a **personal project**. It is not an official AV Stumpfl or PIXERA
+product, and is not supported by AV Stumpfl.
+
+**No licence is attached.** It is shared as-is, with no warranty of any kind,
+to show what is possible — see the
+[proof of concept warning](#onnx-vision-for-pixera) at the top.
