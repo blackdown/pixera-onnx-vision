@@ -1,0 +1,3 @@
+[submodule "render-bridge-sdk"]
+	path = render-bridge-sdk
+	url = https://github.com/avstumpfl/render-bridge-sdk.git

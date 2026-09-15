@@ -1,0 +1,17 @@
+# Build output
+_build*/
+build/
+out/
+.vs/
+*.user
+
+# Binaries are published as release assets, not committed
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# Models are large and carry their own licences
+*.onnx
+*.trtengine
+*.engine
